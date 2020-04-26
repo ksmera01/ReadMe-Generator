@@ -2,21 +2,33 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  # ${data.description}
+  ## Description
 
-  # ${data.githubLink}
+  ${data.description}
+ 
+  ## Installation
 
-  # ${data.installation}
+  Installation requirements: ${data.installation}
 
-  # ${data.usage}
+  Testing requirements: ${data.tests}
 
-  # ${data.license}
+  ## Instructions
 
-  # ${data.contribute}
+  - ${data.usage}
 
-  # ${data.tests}
+  ## License
 
-  # Questions?: Feel free to contact me at ksmera01@gmail.com
+  - ${data.license}
+
+  ## Contributors
+
+  - ${data.contribute}
+
+  ## Link to Deployed Application
+
+  - ${data.githubLink}
+
+  ## Questions? Feel free to contact me at ksmera01@gmail.com
   
   `;
 }
