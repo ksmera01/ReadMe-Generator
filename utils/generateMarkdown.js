@@ -8,15 +8,15 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   
-  - [Installation Requirements](#installationRequirements)
+  - [Installation](#installation)
   - [Testing](#testing)
   - [Instructions](#instructions)
   - [License](#license)
   - [Contributors](#contributors)
-  - [Link](#linkToDeployedApplication)
+  - [Link to Deployed Application](#link)
   - [Questions](#questions)
  
-  ## Installation Requirements
+  ## Installation
 
   - Run Command: ${data.installation}
   - Notes: ${data.installationNotes}
@@ -31,13 +31,13 @@ function generateMarkdown(data) {
 
   ## License
 
-  [!License(https://img.shields.io/badge/License-${data.license}-orange.svg)]
+  [!License](https://img.shields.io/badge/License-${data.license}-orange.svg)](https://opensource.org/licenses)
 
   ## Contributors
 
   - ${data.contribute}
 
-  ## Link to Deployed Application
+  ## Link
 
   - ${data.githubLink}
 

@@ -7,15 +7,15 @@
 
   ## Table of Contents
   
-  - [Installation Requirements](#installationRequirements)
+  - [Installation](#installation)
   - [Testing](#testing)
   - [Instructions](#instructions)
   - [License](#license)
   - [Contributors](#contributors)
-  - [Link](#linkToDeployedApplication)
+  - [Link to Deployed Application](#link)
   - [Questions](#questions)
  
-  ## Installation Requirements
+  ## Installation
 
   - Run Command: npm install
   - Notes: None
@@ -30,13 +30,13 @@
 
   ## License
 
-  [!License(https://img.shields.io/badge/License-MIT-orange.svg)]
+  [!License](https://img.shields.io/badge/License-GPL-orange.svg)](https://opensource.org/licenses)
 
   ## Contributors
 
   - None
 
-  ## Link to Deployed Application
+  ## Link
 
   - https://github.com/ksmera01/ReadMe-Generator
 

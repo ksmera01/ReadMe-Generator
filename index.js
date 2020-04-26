@@ -40,13 +40,13 @@ function promptUser() {
     {
       type: "input",
       name: "usage",
-      message: "Please enter any notes about usage of the application."
+      message: "Please enter any instruction notes about usage of the application."
     },
     {
       type: "list",
       name: "license",
       message: "Please select a license for your project.",
-      choices: ["None", "ISC", "MIT", "Apache", "GNU General Public License 3.0"]
+      choices: ["None", "ISC", "MIT", "Apache", "GPL"]
     },
     {
       type: "input",
