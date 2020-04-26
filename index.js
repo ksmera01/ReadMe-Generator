@@ -1,7 +1,9 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const generate = require("./utils/generateMarkdown.js")
+const useMarkdownFile = require("./utils/generateMarkdown.js");
+
+const writeFileAsync = util.promisify(fs.writeFile);
 
 function promptUser() {
   return inquirer.prompt([
@@ -57,15 +59,15 @@ function promptUser() {
 function writeToFile(fileName, data) {
 }
 
-function init() {
+async function init() {
   try {
     const answers = await promptUser();
 
-    const html = generateHTML(answers);
+    const newReadMe = useMarkdownFile(answers);
 
-    await writeFileAsync("index.html", html);
+    await writeFileAsync("README.md", newReadMe);
 
-    console.log("Successfully wrote to index.html");
+    console.log("Well done! You created a good looking README.md");
   } catch (err) {
     console.log(err);
   }
