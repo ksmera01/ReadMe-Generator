@@ -1,20 +1,32 @@
 
   # ReadMe Generator
 
-  # This is a description
+  ## Description
 
-  # Here is a link
+  The goal of this project was to create a read me generator. This generator will allow the user to create a functional, clean read me while saving much time with formatting.
+ 
+  ## Installation
 
-  # Make sure to run an npm install
+  Installation requirements: npm install
 
-  # Please answer each question with detail.
+  Testing requirements: npm test
 
-  # Need to figure out this selection
+  ## Instructions
 
-  # None
+  - This application will run through the command line using node.js
 
-  # npm test
+  ## License
 
-  # Questions?: Feel free to contact me at ksmera01@gmail.com
+  - MIT
+
+  ## Contributors
+
+  - None
+
+  ## Link to Deployed Application
+
+  - https://github.com/ksmera01/ReadMe-Generator
+
+  ## Questions? Feel free to contact me at ksmera01@gmail.com
   
   
