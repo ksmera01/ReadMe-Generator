@@ -10,7 +10,7 @@ function generateMarkdown(data) {
   
   - [Installation](#installation)
   - [Testing](#testing)
-  - [Instructions](#instructions)
+  - [Usage](#usage)
   - [License](#license)
   - [Contributors](#contributors)
   - [Link to Deployed Application](#link)
@@ -21,11 +21,11 @@ function generateMarkdown(data) {
   - Run Command: ${data.installation}
   - Notes: ${data.installationNotes}
 
-  ## Testing
+  ## Tests
   
   - Run Command: ${data.tests}
 
-  ## Instructions
+  ## Usage
 
   - ${data.usage}
 

@@ -3,13 +3,13 @@
 
   ## Description
 
-  The goal of this project was to create a read me generator. This generator will allow the user to create a functional, clean ReadMe while saving time and effort with formatting. Please enjoy!
+  The goal of this project was to create a ReadMe Generator. This generator allows the user to create a functional, clean ReadMe while saving time and effort with formatting. The application uses javascript and node.js to create the finished product. Please enjoy!
 
   ## Table of Contents
   
   - [Installation](#installation)
   - [Testing](#testing)
-  - [Instructions](#instructions)
+  - [Usage](#usage)
   - [License](#license)
   - [Contributors](#contributors)
   - [Link to Deployed Application](#link)
@@ -20,13 +20,13 @@
   - Run Command: npm install
   - Notes: None
 
-  ## Testing
+  ## Tests
   
   - Run Command: npm test
 
-  ## Instructions
+  ## Usage
 
-  - This application will run through the command line using node.js. Please see installation instructions above for more information.
+  - This application will run through the command line using node.js. Please see installation instructions for more information.
 
   ## License
 
