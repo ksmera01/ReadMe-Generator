@@ -43,7 +43,7 @@ function generateMarkdown(data) {
 
   ## Questions? 
   
-  - Feel free to contact me at ksmera01@gmail.com
+  - Feel free to contact me at ${data.githubEmail}
   
   `;
 }

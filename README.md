@@ -3,7 +3,7 @@
 
   ## Description
 
-  The goal of this project was to create a read me generator. This generator will allow the user to create a functional, clean read me while saving much time with formatting.
+  The goal of this project was to create a read me generator. This generator will allow the user to create a functional, clean ReadMe while saving time and effort with formatting. Please enjoy!
 
   ## Table of Contents
   
@@ -26,7 +26,7 @@
 
   ## Instructions
 
-  - This application will run through the command line using node.js
+  - This application will run through the command line using node.js. Please see installation instructions above for more information.
 
   ## License
 

@@ -19,11 +19,6 @@ function promptUser() {
     },
     {
       type: "input",
-      name: "githubLink",
-      message: "Please type the link to your deployed project."
-    },
-    {
-      type: "input",
       name: "installation",
       message: "Please list any installation commands needed for this project."
     },
@@ -52,6 +47,16 @@ function promptUser() {
       type: "input",
       name: "contribute",
       message: "Please list any additional contributors to this project."
+    },
+    {
+      type: "input",
+      name: "githubLink",
+      message: "Please type the link to your deployed project."
+    },
+    {
+      type: "input",
+      name: "githubEmail",
+      message: "Please enter your GitHub email."
     },
   ]);
 }
