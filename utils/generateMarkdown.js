@@ -31,7 +31,7 @@ function generateMarkdown(data) {
 
   ## License
 
-  [![License](https://img.shields.io/badge/License-${data.license}-orange.svg)]
+  ![License](https://img.shields.io/badge/License-${data.license}-orange.svg)
 
   ## Contributors
 
