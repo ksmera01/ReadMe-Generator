@@ -25,7 +25,17 @@ function promptUser() {
     {
       type: "input",
       name: "installation",
-      message: "Please enter installation notes."
+      message: "Please list any installation commands needed for this project."
+    },
+    {
+      type: "input",
+      name: "installationNotes",
+      message: "Are there any additional installation notes for this project?"
+    },
+    {
+      type: "input",
+      name: "tests",
+      message: "Please list any testing commands needed for this project."
     },
     {
       type: "input",
@@ -43,20 +53,7 @@ function promptUser() {
       name: "contribute",
       message: "Please list any additional contributors to this project."
     },
-    {
-      type: "input",
-      name: "tests",
-      message: "Please list any testing commands needed for this project."
-    },
-    {
-      type: "input",
-      name: "questions",
-      message: "Please list any testing commands needed for this project."
-    }
   ]);
-}
-
-function writeToFile(fileName, data) {
 }
 
 async function init() {

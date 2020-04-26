@@ -5,12 +5,25 @@ function generateMarkdown(data) {
   ## Description
 
   ${data.description}
+
+  ## Table of Contents
+  
+  - [Installation Requirements](#installation)
+  - [Testing](#testing)
+  - [Instructions](#instructions)
+  - [License](#license)
+  - [Contributors](#contributors)
+  - [Link](#link)
+  - [Questions](#questions)
  
-  ## Installation
+  ## Installation Requirements
 
-  Installation requirements: ${data.installation}
+  - Run Command: ${data.installation}
+  - Notes: ${data.installationNotes}
 
-  Testing requirements: ${data.tests}
+  ## Testing
+  
+  - Run Command: ${data.tests}
 
   ## Instructions
 
@@ -28,7 +41,9 @@ function generateMarkdown(data) {
 
   - ${data.githubLink}
 
-  ## Questions? Feel free to contact me at ksmera01@gmail.com
+  ## Questions? 
+  
+  - Feel free to contact me at ksmera01@gmail.com
   
   `;
 }
