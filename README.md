@@ -7,12 +7,12 @@
 
   ## Table of Contents
   
-  - [Installation Requirements](#installation)
+  - [Installation Requirements](#installation requirements)
   - [Testing](#testing)
   - [Instructions](#instructions)
   - [License](#license)
   - [Contributors](#contributors)
-  - [Link](#link)
+  - [Link](#link to Deployed Application)
   - [Questions](#questions)
  
   ## Installation Requirements
@@ -30,7 +30,7 @@
 
   ## License
 
-  - Apache
+  [![License](https://img.shields.io/badge/License-MIT-orange.svg)]
 
   ## Contributors
 
