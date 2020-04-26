@@ -30,7 +30,7 @@
 
   ## License
 
-  [!License](https://img.shields.io/badge/License-GPL-orange.svg)](https://opensource.org/licenses)
+  [!License (https://img.shields.io/badge/License-MIT-orange.svg)]
 
   ## Contributors
 
