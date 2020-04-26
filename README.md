@@ -7,12 +7,12 @@
 
   ## Table of Contents
   
-  - [Installation Requirements](#installation requirements)
+  - [Installation Requirements](#installationRequirements)
   - [Testing](#testing)
   - [Instructions](#instructions)
   - [License](#license)
   - [Contributors](#contributors)
-  - [Link](#link to Deployed Application)
+  - [Link](#linkToDeployedApplication)
   - [Questions](#questions)
  
   ## Installation Requirements
@@ -30,7 +30,7 @@
 
   ## License
 
-  [![License](https://img.shields.io/badge/License-MIT-orange.svg)]
+  [!License(https://img.shields.io/badge/License-MIT-orange.svg)]
 
   ## Contributors
 
